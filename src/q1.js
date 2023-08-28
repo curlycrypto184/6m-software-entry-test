@@ -24,7 +24,7 @@ function swap(x, y){
     }
 
 // Task 2: Add code here
-let x = "a";
-let y = 20;
+let x = 20;
+let y = 30;
 swap(x,y);
 module.exports = swap;
