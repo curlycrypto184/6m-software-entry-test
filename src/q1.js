@@ -11,8 +11,20 @@
 
 function swap(x, y){
     // Task 1: Add code here
-}
+   // Check if x and y are numeric
+  if (typeof x !== "number" || typeof y !== "number") {
+    return -1;
+  }
+
+    x = x + y;
+    y = x - y;
+    x = x - y;
+    console.log('x:' + x);
+    console.log('y:' + y);
+    }
 
 // Task 2: Add code here
-
+let x = "a";
+let y = 20;
+swap(x,y);
 module.exports = swap;
